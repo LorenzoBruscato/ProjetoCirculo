@@ -9,18 +9,18 @@ package model;
  * @author Lorenzo
  */
 public class Circulo {
-    private  double pi;
+
+    private double pi;
     private double raio;
 
     public Circulo() {
-        this(0,0);
+        this(0, 0);
     }
 
     public Circulo(double pi, double raio) {
         this.pi = pi;
         this.raio = raio;
     }
-
 
     public double getPi() {
         return pi;
@@ -37,7 +37,8 @@ public class Circulo {
     public void setRaio(double raio) {
         this.raio = raio;
     }
-        public double getArea() {
-        return ((getPi()* Math.pow(pi, 2)));
+
+    public double getArea() {
+        return ((getPi() * Math.pow(pi, 2)));
     }
 }

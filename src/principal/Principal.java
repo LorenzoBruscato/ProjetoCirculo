@@ -17,10 +17,10 @@ public class Principal {
         Circulo circulo = new Circulo();
         circulo.setPi(Double.parseDouble(JOptionPane.
                 showInputDialog("Digite o valor de pi:")));
-        
+
         circulo.setRaio(Double.parseDouble(JOptionPane.
                 showInputDialog("Digite o valor do raio: ")));
-        
+
         JOptionPane.showMessageDialog(null, "A área do circulo é " + circulo.getArea());
     }
 }
